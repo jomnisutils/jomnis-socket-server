@@ -1,7 +1,7 @@
 {
     "name": "jomnis-socket-server",
-    "version": "0.0.1",
-    "description": "",
+    "version": "0.0.2",
+    "description": "Omnis WebSocket mock for node.js",
     "keywords": [],
     "main": "dist/jomnis-socket-server.umd.js",
     "module": "dist/jomnis-socket-server.es5.js",
@@ -12,7 +12,7 @@
     "author": "Giacomo <giacomo.manzoli@gmail.com>",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/jomnisutils/jomnis-socket-server.git"
     },
     "license": "MIT",
     "engines": {
