@@ -4,7 +4,7 @@ export declare type HandlerFunction = (evData?: any) => void
 
 export class ConnectionHandler {
     [evName: string]: HandlerFunction | Connection
-    private connection: Connection
+    protected connection: Connection
     public constructor(conn: Connection) {
         this.connection = conn
     }
